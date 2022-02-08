@@ -1,1 +1,55 @@
-/* Цвет основного текста #000000*/
+/* Цвет основного текста #212121*/
+/* Вторичный цвет текста #757575 */
+/* Белый #FFFFFF */
+/* Акцент#2196F3 */
+/* Вторичный цвет фона#F5F4FA */
+body {
+  font-family: Roboto, sans-serif;
+  color: #212121;
+  background-color: #ffffff;
+}
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+.logo {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+.web {
+  color: #2196f3;
+}
+/* site nav */
+
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+.auth-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
