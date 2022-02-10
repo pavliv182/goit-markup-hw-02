@@ -3,6 +3,8 @@
 /* Белый #FFFFFF */
 /* Акцент#2196F3 */
 /* Вторичный цвет фона#F5F4FA */
+/* Основной цвет лого #2196f3  */
+/* Вторичный цвет лого #000000  */
 body {
   font-family: Roboto, sans-serif;
   color: #212121;
@@ -11,28 +13,37 @@ body {
 .list {
   list-style: none;
 }
+.current-link {
+  color: #2196f3;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
 
 /* logo */
 
 .nav-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
-  line-height: 1.2;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: #2196f3;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
-.nav-web {
-  color: #2196f3;
+.nav-studio {
+  color: #000000;
 }
 /* nav */
 
 .nav {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1;
@@ -44,8 +55,6 @@ body {
   color: #2196f3;
 }
 .nav-auth {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
