@@ -1,20 +1,37 @@
-/* Цвет основного текста #212121*/
-/* Вторичный цвет текста #757575 */
-/* Белый #FFFFFF */
-/* Акцент#2196F3 */
-/* Вторичный цвет фона#F5F4FA */
-/* Основной цвет лого #2196f3  */
-/* Вторичный цвет лого #000000  */
+:root {
+  /* Основные шрифты */
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-serif;
+
+  /* Цвет заголовков текста светлой темы */
+  --white-title-color: #212121;
+  /* Вторичный цвет текста светлой темы */
+  --secondary-font-color: #757575;
+  /* Цвет текста темной темы */
+  --title-font-color: #ffffff;
+  /* Вторичный цвет текста темной темы */
+  --secondary-font-color: rgba(255, 255, 255, 0, 6);
+
+  /* Цвет акцента */
+  --accent-color: #2196f3;
+
+  /* Цвет фона основной */
+  --background-color: #ffffff;
+  /* Цвет фона темной темы */
+  --dark-background-color: #2f303a;
+  /* Вторичный цвет фона темной темы */
+  --dark-secondary-background-color: #f5f4fa;
+}
 body {
-  font-family: Roboto, sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  font-family: --main-font;
+  color: var(--white-title-color);
+  background-color: var(--background-color);
 }
 .list {
   list-style: none;
 }
 .current-link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 ul,
@@ -29,7 +46,7 @@ a {
 /* logo */
 
 .nav-logo {
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
