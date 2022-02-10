@@ -14,7 +14,7 @@ body {
 
 /* logo */
 
-.logo {
+.nav-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -25,12 +25,12 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
-.web {
+.nav-web {
   color: #2196f3;
 }
-/* site nav */
+/* nav */
 
-.site-nav {
+.nav {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -39,16 +39,16 @@ body {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.nav .link:hover,
+.nav .link:focus {
   color: #2196f3;
 }
-.auth-nav {
+.nav-auth {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 
   color: #757575;
