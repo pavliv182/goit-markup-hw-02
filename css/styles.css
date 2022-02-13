@@ -14,6 +14,8 @@
 
   /* Цвет акцента */
   --accent-color: #2196f3;
+  /* Вторичный цвет акцента */
+  --secondary-accent-color: #188ce8;
   /* Вторичный цвет логотипа */
   --secondary-logo-color: #000000;
 
@@ -25,7 +27,7 @@
   --dark-secondary-background-color: #f5f4fa;
 }
 body {
-  font-family: --main-font;
+  font-family: var(--main-font);
   color: var(--white-title-color);
   background-color: var(--background-color);
   font-size: 14px;
@@ -45,13 +47,12 @@ a {
 /* logo */
 
 .nav-logo {
-  font-family: Raleway, sans-serif;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   text-decoration: none;
 }
 .nav-studio {
@@ -129,7 +130,7 @@ a {
 }
 .hero-button:hover,
 .hero-button:focus {
-  background-color: var(--accent-color);
+  background-color: var(--secondary-accent-color);
 }
 
 /* features */
@@ -196,12 +197,10 @@ a {
   background-color: var(--dark-background-color);
 }
 .footer-logo {
-  font-family: Raleway;
-  font-style: 400;
+  font-family: var(--secondary-font);
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
   text-decoration: none;
 }
@@ -211,21 +210,21 @@ a {
 }
 
 /* address */
-
 .footer-list {
   list-style: none;
 }
 .footer-link {
   font-weight: 400;
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--black-secondary-font-color);
   text-decoration: none;
 }
 .footer-link:hover,
 .footer-link:focus {
   color: var(--black-title-font-color);
+}
+.address {
+  font-style: normal;
 }
 /* PORTFOLIO HTML */
 
@@ -257,6 +256,9 @@ a {
 /* Секция Проекты */
 .projects-list {
   list-style: none;
+}
+.projects-link {
+  text-decoration: none;
 }
 .projects-title {
   font-weight: 700;
